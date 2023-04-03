@@ -1,0 +1,59 @@
+<!--
+  The main index page contains two divs inside a div.
+  The left div contains all the text and the email input form.
+  The right div contains an image.
+  On form submission, email validation is conducted and redirection to new page occurs if valid.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Aakash Bhandary Home Page</title>
+</head>
+
+<body>
+
+  <div class="box">
+
+    <!--left side container inside main box-->
+    <div class="container_l">
+
+      <div class="ab_logo">
+        <img src="./images/logo-aakash.png" alt="" style="height: 100%;">
+      </div><br>
+
+      <div class="text_welcome">
+        <p>WELCOME!</p>
+      </div><br>
+
+      <div class="text_coming_soon">
+        <p> NEWSLETTER COMING SOON</p>
+      </div><br>
+
+      <div class="text_hello">
+        <p>Hello friends! Welcome to this landing page. It would mean the world to me if you could subscribe to my
+          newsletter!!</p>
+      </div><br>
+
+      <div class="email_input">
+        <!--email input form-->
+        <form method="post" name="form1" id="form1" action="#">
+          <input type="email" name="email" id="email" placeholder="Email Address" style="color: hsl(0, 6%, 24%)">
+          <input name="Submit" id="Submit" type="submit" value=">">
+        </form>
+      </div>
+    </div>
+
+    <!--right side container which contains the image-->
+    <div class="container_r"></div>
+  </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
